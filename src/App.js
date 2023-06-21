@@ -45,7 +45,7 @@ useEffect(()=>{
   return (
 
     <div className="App">
-     <h1 className='title-app'>Monsetr Rolodex</h1> 
+     <h1 className='title-app'>MONSTER ROLODEX</h1> 
       
       <SearchBox  search = {onsearch} placeholder ={"search monster"}/>
       <CardList monster = {filteredmons}/>
